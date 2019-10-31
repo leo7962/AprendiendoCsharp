@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileDemo", "DoWhileDemo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcepcionesDemo", "ExcepcionesDemo\ExcepcionesDemo.csproj", "{2D0BBC5F-2A04-4F1A-859C-F0A1D13EC9B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones2Demo", "Excepciones2Demo\Excepciones2Demo.csproj", "{3654913F-0C06-4F4E-BA23-9B6B0ADBD510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excepciones2Demo", "Excepciones2Demo\Excepciones2Demo.csproj", "{3654913F-0C06-4F4E-BA23-9B6B0ADBD510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesDemo", "ClasesDemo\ClasesDemo.csproj", "{7BD37365-1ACC-4BCA-9AF9-32964E23B92C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{3654913F-0C06-4F4E-BA23-9B6B0ADBD510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3654913F-0C06-4F4E-BA23-9B6B0ADBD510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3654913F-0C06-4F4E-BA23-9B6B0ADBD510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD37365-1ACC-4BCA-9AF9-32964E23B92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD37365-1ACC-4BCA-9AF9-32964E23B92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD37365-1ACC-4BCA-9AF9-32964E23B92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD37365-1ACC-4BCA-9AF9-32964E23B92C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
