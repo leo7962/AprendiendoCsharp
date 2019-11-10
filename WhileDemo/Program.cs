@@ -2,29 +2,28 @@
 
 namespace WhileDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //While (expresión booleana)
             //enunciado a ejecutar
-            bool esCierto = true;            
+            var esCierto = true;
             while (esCierto)
             {
                 Console.WriteLine("Hola Leonardo");
                 esCierto = false;
-
             }
 
-            int i = 1;
-            int suma = 0;
-            while(i <= 10)
+            var i = 1;
+            var suma = 0;
+            while (i <= 10)
             {
                 suma += i;
                 i++;
             }
 
-            string input = string.Empty;
+            var input = string.Empty;
             while (input != "salir")
             {
                 Console.WriteLine("Ejecutando");

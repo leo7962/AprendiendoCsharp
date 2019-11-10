@@ -2,9 +2,9 @@
 
 namespace MetodosDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //Console.WriteLine("Daniela es mi novia y es muy linda");
             //borrarConsola();
@@ -21,24 +21,25 @@ namespace MetodosDemo
 
             //string name = Console.ReadLine();
             //saludar(name);
-            int result = sumar(50, 50);
+            var result = sumar(50, 50);
             Console.WriteLine(result / 2);
 
             Console.ReadLine();
         }
 
-        static int sumar(int numero1, int numero2)
+        private static int sumar(int numero1, int numero2)
         {
             return numero1 + numero2;
         }
 
-        static void saludar(string name)
+        private static void saludar(string name)
         {
             sumar(51, 45);
             Console.WriteLine("Hola " + name);
         }
+
         // tipo de dato a retornar + nombre del método + parametros
-        static void borrarConsola()
+        private static void borrarConsola()
         {
             Console.ReadLine();
             Console.Clear();
@@ -46,7 +47,14 @@ namespace MetodosDemo
         }
 
         //métodos con cuerpo de expesión 
-        static void Saludar() => Console.WriteLine("Hola Leo");
-        static int Sumar(int numero1, int numero2) => numero1 + numero2;
+        private static void Saludar()
+        {
+            Console.WriteLine("Hola Leo");
+        }
+
+        private static int Sumar(int numero1, int numero2)
+        {
+            return numero1 + numero2;
+        }
     }
 }

@@ -2,13 +2,12 @@
 
 namespace ExcepcionesDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //Este es el manejo de excepciones 
 
-           
 
             //Console.WriteLine(numeroconvertido);
 
@@ -23,7 +22,7 @@ namespace ExcepcionesDemo
 
             try
             {
-                int valor = 10;
+                var valor = 10;
                 Console.WriteLine(valor / 0);
             }
             catch (DivideByZeroException ex)
@@ -34,25 +33,24 @@ namespace ExcepcionesDemo
             try
             {
                 //Convertir un string número a una cadena 
-                string numeroencadena = "1a";
-                int valor = int.Parse(numeroencadena);
+                var numeroencadena = "1a";
+                var valor = int.Parse(numeroencadena);
             }
             catch (DivideByZeroException ex)
             {
-
-                Console.WriteLine("Unicamente se aceptan números" + ""+ex);
+                Console.WriteLine("Unicamente se aceptan números" + "" + ex);
             }
             catch (FormatException ex)
             {
-                Console.WriteLine("Solamente se aceptan números "+""+ex);
+                Console.WriteLine("Solamente se aceptan números " + "" + ex);
             }
 
             try
             {
                 //string numerogrande = "99999999999";
                 //int numeroconvertido = int.Parse(numerogrande);
-                 string numeroencadena = "1a";
-                int valor = int.Parse(numeroencadena);
+                var numeroencadena = "1a";
+                var valor = int.Parse(numeroencadena);
             }
             //catch (DivideByZeroException ex)
             //{
@@ -70,7 +68,6 @@ namespace ExcepcionesDemo
             {
                 Console.WriteLine(ex.Message);
             }
-            
 
 
             Console.ReadLine();

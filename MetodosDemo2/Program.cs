@@ -2,13 +2,14 @@
 
 namespace MetodosDemo2
 {
-    class Program
+    internal class Program
     {
-        static string nombre = "Leonardo";
-        static void Main(string[] args)
+        private static string nombre = "Leonardo";
+
+        private static void Main(string[] args)
         {
-            int cociente = 0;
-            int residuo = 0;
+            var cociente = 0;
+            var residuo = 0;
 
             (cociente, residuo) = Dividir(654123, 15621324);
             //Console.WriteLine(cociente);
@@ -27,10 +28,10 @@ namespace MetodosDemo2
 
             //escribirTexto("Leonardo");
 
-            CalcularCuenta(totalcuenta: 402, propina: 561, comensales: 454, iva: 19);
+            CalcularCuenta(402, 561, 454);
 
             CalcularAreaAlCuadrado(41, "Leo", 52m, true);
-            int resultado = CalcularAreaAlCuadrado(41, "Leo", 52m, true);
+            var resultado = CalcularAreaAlCuadrado(41, "Leo", 52m, true);
 
             limpiarMetodo();
 
@@ -49,7 +50,7 @@ namespace MetodosDemo2
             throw new NotImplementedException();
         }
 
-        static void escribirTexto(string texto)
+        private static void escribirTexto(string texto)
         {
             Console.WriteLine(texto);
             limpiar();
@@ -61,32 +62,42 @@ namespace MetodosDemo2
                 Console.Beep();
             }
         }
-        static double CalcularCuenta(double totalcuenta, double propina, int comensales, double estacinamiento = 0, double iva = 19)
+
+        private static double CalcularCuenta(double totalcuenta, double propina, int comensales,
+            double estacinamiento = 0, double iva = 19)
         {
-            return (totalcuenta + propina+estacinamiento) / comensales;
+            return (totalcuenta + propina + estacinamiento) / comensales;
         }
         //static double CalcularCuenta(double totalcuenta, double propina, int comensales, double estacionamiento)
         //{
         //    return (totalcuenta + propina + estacionamiento) / comensales;
         //}
 
-        static int multiplicar(int numero1, int numero2) => numero1 * numero2;
-        static float multiplicar(float numero2, int numero3) => numero2 * numero3;
+        private static int multiplicar(int numero1, int numero2)
+        {
+            return numero1 * numero2;
+        }
 
-        static void Saludar()
+        private static float multiplicar(float numero2, int numero3)
+        {
+            return numero2 * numero3;
+        }
+
+        private static void Saludar()
         {
             nombre = "Juan";
             Console.WriteLine(nombre);
         }
 
         //retornando más de un valor con un método funcional para crear recibir mas datos
-        static (int, int) Dividir(int numero1, int numero2)
+        private static (int, int) Dividir(int numero1, int numero2)
         {
-            int cociente = numero1 / numero2;
-            int residuo = numero1 % numero2;
+            var cociente = numero1 / numero2;
+            var residuo = numero1 % numero2;
             return (cociente, residuo);
         }
-        static (int, string) RegresarDatos()
+
+        private static (int, string) RegresarDatos()
         {
             return (8, "Leo");
         }

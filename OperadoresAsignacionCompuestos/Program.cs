@@ -2,9 +2,9 @@
 
 namespace OperadoresAsignacionCompuestos
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //int variable = 50;
             //Console.WriteLine(variable + 30);
@@ -16,17 +16,16 @@ namespace OperadoresAsignacionCompuestos
 
             //variable %= 40;
 
-            string texto = "Soy un programador";
+            var texto = "Soy un programador";
             Console.WriteLine(texto);
             texto += "de C#";
             Console.WriteLine(texto);
-            string texto2 = " Y .NET";
+            var texto2 = " Y .NET";
             texto += texto2;
             Console.WriteLine(texto);
 
 
             //Console.WriteLine(variable);
-            
         }
     }
 }
