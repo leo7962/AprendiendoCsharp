@@ -4,9 +4,9 @@ namespace ClasesDemo
 {
     internal class Circulo
     {
-        private readonly int radio;
-        public static int numeroDeCirculos;
         public const double PI = 3.14;
+        public static int numeroDeCirculos;
+        private readonly int radio;
 
         public Circulo(int radioInicial)
         {

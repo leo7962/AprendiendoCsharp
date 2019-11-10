@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcepcionesDemo", "Excepcio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excepciones2Demo", "Excepciones2Demo\Excepciones2Demo.csproj", "{3654913F-0C06-4F4E-BA23-9B6B0ADBD510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesDemo", "ClasesDemo\ClasesDemo.csproj", "{7BD37365-1ACC-4BCA-9AF9-32964E23B92C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesDemo", "ClasesDemo\ClasesDemo.csproj", "{7BD37365-1ACC-4BCA-9AF9-32964E23B92C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

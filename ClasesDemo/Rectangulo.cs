@@ -31,12 +31,12 @@
         public double calcularPerimetro()
         {
             // P = 2 * H + 2 * b
-            return (2 * altura) + (2 * baseRectangulo);
+            return 2 * altura + 2 * baseRectangulo;
         }
 
         public static double CalcularPerimetroRectangulo(double alturaRectangulo, double baseRectangulo)
         {
-            return (2 * alturaRectangulo) + (2 * baseRectangulo);
+            return 2 * alturaRectangulo + 2 * baseRectangulo;
         }
 
         public void Deconstruct(out double baseRect, out double alturaRect)

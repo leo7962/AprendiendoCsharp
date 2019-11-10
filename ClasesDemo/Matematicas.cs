@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ClasesDemo
+﻿namespace ClasesDemo
 {
-    static class Matematicas
+    internal static class Matematicas
     {
         public static int contador;
+
         public static double Sumar(double numero1, double numero2)
         {
             return numero1 + numero2;
