@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Enumeraciones
 {
-    enum Rol
+    enum Rol : short
     {
-        Administrador,
-        Desarrollador,
-        Usuariofinal
+        Administrador= 5,
+        Desarrollador=10,
+        Usuariofinal =11
     }
 }

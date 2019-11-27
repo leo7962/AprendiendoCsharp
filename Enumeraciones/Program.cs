@@ -6,7 +6,17 @@ namespace Enumeraciones
     {
         private static void Main(string[] args)
         {
-            var tipoUsuario = Rol.Administrador;
+            Rol tipoUsuario = Rol.Administrador;
+
+            Console.WriteLine((int)tipoUsuario);
+
+            if (tipoUsuario == Rol.Administrador)
+            {
+                tipoUsuario++;
+            }
+
+            Rol? tipoUsuario2 = null;
+
             string temporal = tipoUsuario.ToString();
 
             switch (tipoUsuario)
