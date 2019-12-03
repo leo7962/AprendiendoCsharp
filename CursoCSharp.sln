@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposValorTiposReferencia",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumeraciones", "Enumeraciones\Enumeraciones.csproj", "{678573EC-CBC8-405E-AA15-F91DCA25DAE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstructurasDemo", "EstructurasDemo\EstructurasDemo.csproj", "{00F57678-8741-40F7-A399-9858ECB9BC38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstructurasDemo", "EstructurasDemo\EstructurasDemo.csproj", "{00F57678-8741-40F7-A399-9858ECB9BC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArreglosDemo", "ArreglosDemo\ArreglosDemo.csproj", "{18CD1EAA-3A10-4FD0-9F8F-288147987015}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{00F57678-8741-40F7-A399-9858ECB9BC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00F57678-8741-40F7-A399-9858ECB9BC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00F57678-8741-40F7-A399-9858ECB9BC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CD1EAA-3A10-4FD0-9F8F-288147987015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CD1EAA-3A10-4FD0-9F8F-288147987015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CD1EAA-3A10-4FD0-9F8F-288147987015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CD1EAA-3A10-4FD0-9F8F-288147987015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
