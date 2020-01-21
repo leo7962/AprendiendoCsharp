@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstructurasDemo", "Estructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArreglosDemo", "ArreglosDemo\ArreglosDemo.csproj", "{18CD1EAA-3A10-4FD0-9F8F-288147987015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsDemo", "ParamsDemo\ParamsDemo.csproj", "{D2F35DE4-98E6-4DBD-9F01-65BA9EF0D82F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamsDemo", "ParamsDemo\ParamsDemo.csproj", "{D2F35DE4-98E6-4DBD-9F01-65BA9EF0D82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerenciaDemo", "HerenciaDemo\HerenciaDemo.csproj", "{CE9038D7-1C2C-442D-B8FF-09D7821C03EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{D2F35DE4-98E6-4DBD-9F01-65BA9EF0D82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2F35DE4-98E6-4DBD-9F01-65BA9EF0D82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2F35DE4-98E6-4DBD-9F01-65BA9EF0D82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9038D7-1C2C-442D-B8FF-09D7821C03EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9038D7-1C2C-442D-B8FF-09D7821C03EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9038D7-1C2C-442D-B8FF-09D7821C03EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9038D7-1C2C-442D-B8FF-09D7821C03EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
