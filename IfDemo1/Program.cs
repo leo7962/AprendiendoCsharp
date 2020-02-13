@@ -31,19 +31,19 @@ namespace IfDemo1
             //Console.WriteLine(esigual3);
 
             //operadores relacionales < > <= >=
-            var edad = 30;
-            var resultado = edad <= 30;
+            int edad = 30;
+            bool resultado = edad <= 30;
             Console.WriteLine(resultado);
 
-            var resultado2 = edad >= 20;
+            bool resultado2 = edad >= 20;
             Console.WriteLine(resultado2);
 
             //operadores lógicos AND && y OR ||
-            var logico = 3 == 3 && 4 == 4 && 5 == 5;
+            bool logico = 3 == 3 && 4 == 4 && 5 == 5;
             Console.WriteLine(logico);
 
             //or
-            var logico2 = 3 == 4 || 4 == 4;
+            bool logico2 = 3 == 4 || 4 == 4;
             Console.WriteLine(logico2);
 
             Console.ReadLine();

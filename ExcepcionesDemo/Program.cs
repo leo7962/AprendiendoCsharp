@@ -22,7 +22,7 @@ namespace ExcepcionesDemo
 
             try
             {
-                var valor = 10;
+                int valor = 10;
                 Console.WriteLine(valor / 0);
             }
             catch (DivideByZeroException ex)
@@ -33,8 +33,8 @@ namespace ExcepcionesDemo
             try
             {
                 //Convertir un string número a una cadena 
-                var numeroencadena = "1a";
-                var valor = int.Parse(numeroencadena);
+                string numeroencadena = "1a";
+                int valor = int.Parse(numeroencadena);
             }
             catch (DivideByZeroException ex)
             {
@@ -49,8 +49,8 @@ namespace ExcepcionesDemo
             {
                 //string numerogrande = "99999999999";
                 //int numeroconvertido = int.Parse(numerogrande);
-                var numeroencadena = "1a";
-                var valor = int.Parse(numeroencadena);
+                string numeroencadena = "1a";
+                int valor = int.Parse(numeroencadena);
             }
             //catch (DivideByZeroException ex)
             //{

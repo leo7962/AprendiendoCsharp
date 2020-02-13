@@ -8,22 +8,22 @@ namespace WhileDemo
         {
             //While (expresión booleana)
             //enunciado a ejecutar
-            var esCierto = true;
+            bool esCierto = true;
             while (esCierto)
             {
                 Console.WriteLine("Hola Leonardo");
                 esCierto = false;
             }
 
-            var i = 1;
-            var suma = 0;
+            int i = 1;
+            int suma = 0;
             while (i <= 10)
             {
                 suma += i;
                 i++;
             }
 
-            var input = string.Empty;
+            string input = string.Empty;
             while (input != "salir")
             {
                 Console.WriteLine("Ejecutando");

@@ -13,8 +13,8 @@ namespace DoWhileDemo
                 Console.WriteLine("Hola Leo");
             } while (8 > 10);
 
-            var i = 1;
-            var suma = 0;
+            int i = 1;
+            int suma = 0;
             do
             {
                 suma += i;

@@ -2,9 +2,9 @@
 
 namespace ArreglosDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //if (args.Length >0)
             //{
@@ -20,9 +20,9 @@ namespace ArreglosDemo
             //    new {Nombre = "Leonardo"},
             //    new{Nombre = "Juan"}
             //};
-            
+
             //Circulo[] circulos = { new Circulo(20), new Circulo(5),  };
-           
+
 
             //var tipo = numeros.GetType();
             //try
@@ -32,7 +32,7 @@ namespace ArreglosDemo
             //catch (Exception e)
             //{
             //    Console.WriteLine(e);
-                
+
             //}
 
             //int [] numeros = {145,2,3,4};
@@ -48,11 +48,11 @@ namespace ArreglosDemo
 
             //var datos = inicializar();
 
-            int[] arreglo = {3, 4, 87, 456, 685};
+            int[] arreglo = { 3, 4, 87, 456, 685 };
             int[] arreglo2 = (int[])arreglo.Clone();
 
-            Array.Copy(arreglo,arreglo2,arreglo.Length);
-            
+            Array.Copy(arreglo, arreglo2, arreglo.Length);
+
 
             //for (int i = 0; i < arreglo.Length; i++)
             //{
@@ -67,17 +67,17 @@ namespace ArreglosDemo
             Console.WriteLine(arreglo[0]);
             Console.WriteLine(arreglo2[0]);
 
-            int[,] bidimensional = new int[5,5];
+            int[,] bidimensional = new int[5, 5];
             bidimensional[0, 0] = 1;
             bidimensional[3, 3] = 10;
         }
 
-        static void GenerarReporte(int[] datos)
+        private static void GenerarReporte(int[] datos)
         {
 
         }
 
-        static int[] inicializar()
+        private static int[] inicializar()
         {
             Console.WriteLine("Numero de elementos");
             string respuesta = Console.ReadLine();

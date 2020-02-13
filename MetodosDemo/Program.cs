@@ -21,7 +21,7 @@ namespace MetodosDemo
 
             //string name = Console.ReadLine();
             //saludar(name);
-            var result = sumar(50, 50);
+            int result = sumar(50, 50);
             Console.WriteLine(result / 2);
 
             Console.ReadLine();

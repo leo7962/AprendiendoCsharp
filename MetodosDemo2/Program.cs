@@ -8,8 +8,8 @@ namespace MetodosDemo2
 
         private static void Main(string[] args)
         {
-            var cociente = 0;
-            var residuo = 0;
+            int cociente = 0;
+            int residuo = 0;
 
             (cociente, residuo) = Dividir(654123, 15621324);
             //Console.WriteLine(cociente);
@@ -31,7 +31,7 @@ namespace MetodosDemo2
             CalcularCuenta(402, 561, 454);
 
             CalcularAreaAlCuadrado(41, "Leo", 52m, true);
-            var resultado = CalcularAreaAlCuadrado(41, "Leo", 52m, true);
+            int resultado = CalcularAreaAlCuadrado(41, "Leo", 52m, true);
 
             limpiarMetodo();
 
@@ -92,8 +92,8 @@ namespace MetodosDemo2
         //retornando más de un valor con un método funcional para crear recibir mas datos
         private static (int, int) Dividir(int numero1, int numero2)
         {
-            var cociente = numero1 / numero2;
-            var residuo = numero1 % numero2;
+            int cociente = numero1 / numero2;
+            int residuo = numero1 % numero2;
             return (cociente, residuo);
         }
 

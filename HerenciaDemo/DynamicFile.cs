@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HerenciaDemo
 {
-    class DynamicFile : MultimediaFile
+    internal class DynamicFile : MultimediaFile
     {
-        string duracion;
+        private readonly string duracion;
 
         public void Reproducir()
         {

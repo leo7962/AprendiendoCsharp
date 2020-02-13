@@ -15,8 +15,6 @@ namespace Enumeraciones
                 tipoUsuario++;
             }
 
-            Rol? tipoUsuario2 = null;
-
             string temporal = tipoUsuario.ToString();
 
             switch (tipoUsuario)

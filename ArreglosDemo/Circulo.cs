@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-
-namespace ArreglosDemo
+﻿namespace ArreglosDemo
 {
-    class Circulo
+    internal class Circulo
     {
         public int radio;
         public Circulo(int _radio)

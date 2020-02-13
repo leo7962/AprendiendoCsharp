@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HerenciaDemo
 {
-    class MultimediaFile
+    internal class MultimediaFile
     {
         public string FechaCreacion;
-        string FechaModificacion;
-        string Nombre;
-        string TipoElemento;
+        private readonly string FechaModificacion;
+        private readonly string Nombre;
+        private readonly string TipoElemento;
 
         public void DesplegarInfo()
         {

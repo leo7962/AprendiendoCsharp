@@ -1,13 +1,10 @@
-﻿using System;
-
-namespace HerenciaDemo
+﻿namespace HerenciaDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             MultimediaFile mFile = new MultimediaFile();
-
             mFile.DesplegarInfo();
 
             DynamicFile dFile = new DynamicFile();

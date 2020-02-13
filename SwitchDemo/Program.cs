@@ -6,7 +6,7 @@ namespace SwitchDemo
     {
         private static void Main(string[] args)
         {
-            var dia = 3;
+            int dia = 3;
             switch (dia)
             {
                 case 0:
@@ -36,7 +36,7 @@ namespace SwitchDemo
                     break;
             }
 
-            var vocal = 'e';
+            char vocal = 'e';
             switch (vocal)
             {
                 case 'a':

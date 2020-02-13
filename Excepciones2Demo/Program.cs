@@ -17,7 +17,7 @@ namespace Excepciones2Demo
 
             //Console.WriteLine();
 
-            var mes = int.Parse(Console.ReadLine());
+            int mes = int.Parse(Console.ReadLine());
 
             try
             {
@@ -38,7 +38,7 @@ namespace Excepciones2Demo
 
         private static string obtenerSignoZodiacal(int numeroMes)
         {
-            var resultado = string.Empty;
+            string resultado = string.Empty;
             switch (numeroMes)
             {
                 case 1:

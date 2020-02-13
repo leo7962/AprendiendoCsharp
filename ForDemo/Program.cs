@@ -7,10 +7,17 @@ namespace ForDemo
         private static void Main(string[] args)
         {
             //for (inicialización; expresión booleana; actualización de la variable de control)
-            for (var i = 0; i <= 10; i++) Console.WriteLine(i);
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
 
-            var suma = 0;
-            for (var i = 0; i <= 10; i++) suma += i;
+            int suma = 0;
+            for (int i = 0; i <= 10; i++)
+            {
+                suma += i;
+            }
+
             Console.WriteLine(suma);
 
             //for (;  ; )
@@ -18,7 +25,10 @@ namespace ForDemo
             //    Console.WriteLine("Soy infinito");
             //}
 
-            for (int i = 0, j = 10; i < j; i++, j--) Console.WriteLine(j);
+            for (int i = 0, j = 10; i < j; i++, j--)
+            {
+                Console.WriteLine(j);
+            }
 
             Console.ReadLine();
         }

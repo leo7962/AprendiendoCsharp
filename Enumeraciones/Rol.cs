@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Enumeraciones
+﻿namespace Enumeraciones
 {
-    enum Rol : short
+    internal enum Rol : short
     {
-        Administrador= 5,
-        Desarrollador=10,
-        Usuariofinal =11
+        Administrador = 5,
+        Desarrollador = 10,
+        Usuariofinal = 11
     }
 }

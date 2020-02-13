@@ -2,19 +2,19 @@
 
 namespace ParamsDemo
 {
-    class Program
+    internal class Program
     {
         //no se puede usar en arreglos multidimensionales, ni se puede sobrecargar sus metodos u operadores 
         //debe ser el último parametro en una lista de parametros formales
         //tiene prioridad sobre otras funciones
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             int suma = Sumar(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10000, "1.23");
 
             Console.WriteLine(suma);
         }
 
-        static int Sumar(params object[] numeros)
+        private static int Sumar(params object[] numeros)
         {
             //if (numeros.Length < 2 || numeros == null)
             //{
@@ -32,7 +32,7 @@ namespace ParamsDemo
             //}
 
             int suma = 0;
-            foreach (var numero in numeros)
+            foreach (object numero in numeros)
             {
                 if (numero is int)
                 {

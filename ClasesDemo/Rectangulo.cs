@@ -7,7 +7,7 @@
     {
         private readonly double altura;
         private readonly double baseRectangulo;
-        private string color;
+        private readonly string color;
 
         public Rectangulo()
         {

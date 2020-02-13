@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EstructurasDemo
+﻿namespace EstructurasDemo
 {
-    struct StructPoint
+    internal struct StructPoint
     {
         public int X;
         public int Y;
     }
 
-    class ClassPoint
+    internal class ClassPoint
     {
         public int X;
         public int Y;
