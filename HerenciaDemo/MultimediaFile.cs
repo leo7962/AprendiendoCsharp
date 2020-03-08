@@ -1,18 +1,40 @@
-﻿using System;
-
-namespace HerenciaDemo
+﻿namespace HerenciaDemo
 {
-    internal class MultimediaFile
+    internal class MultimediaFile : object
     {
-        public string FechaCreacion;
-        private readonly string FechaModificacion;
-        private readonly string Nombre;
-        private readonly string TipoElemento;
+        //string FechaCreacion;
+        //readonly string FechaModificacion;
+        //readonly string Nombre;
+        //readonly string TipoElemento;
 
-        public void DesplegarInfo()
+        ////public MultimediaFile(string _fechaCreacion, string _fechaModificacion, string _nombre, string _tipoElemento)
+        ////{
+        ////    FechaCreacion = _fechaCreacion;
+        ////    FechaModificacion = _fechaModificacion;
+        ////    Nombre = _nombre;
+        ////    TipoElemento = _tipoElemento;
+        ////}
+
+        //public virtual void DesplegarInfo()
+        //{
+        //    string informacion = FechaCreacion + " " + FechaModificacion + " " + Nombre + " " + TipoElemento;
+        //    Console.WriteLine(informacion);
+        //}
+
+        //public override string ToString()
+        //{
+        //    return "ToString sobre escrito";
+        //}
+
+        protected string tipoArchivo;
+        public virtual string obtenerTipo()
         {
-            string informacion = FechaCreacion + " " + FechaModificacion + " " + Nombre + " " + TipoElemento;
-            Console.WriteLine(informacion);
+            return "archivo Multimedia";
+        }
+
+        protected void CalcularTamaño()
+        {
+
         }
     }
 }

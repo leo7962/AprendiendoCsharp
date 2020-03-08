@@ -1,24 +1,44 @@
-﻿using System;
-
-namespace HerenciaDemo
+﻿namespace HerenciaDemo
 {
     internal class DynamicFile : MultimediaFile
     {
-        private readonly string duracion;
+        //private readonly string duracion;
 
-        public void Reproducir()
-        {
-            Console.WriteLine("Reproduciendo");
-        }
+        ////public DynamicFile(string _fechaCreacion, string _fechaModificacion, string _nombre, string _tipoElemento) //: base(_fechaCreacion, _fechaModificacion, _nombre, _tipoElemento)
+        ////{
 
-        public void Pausar()
-        {
-            Console.WriteLine("Pausa");
-        }
+        ////}
 
-        public void Detener()
+        ////public DynamicFile(string _nombre)
+        ////{
+
+        ////}
+        //public override void DesplegarInfo()
+        //{
+        //    Console.WriteLine("Soy un archivo dinamico");
+        //}
+
+        //public virtual void Reproducir()
+        //{
+        //    Console.WriteLine("Reproduciendo");
+        //}
+
+        //public virtual void Pausar()
+        //{
+        //    Console.WriteLine("Pausa");
+        //}
+
+        //public virtual void Detener()
+        //{
+        //    Console.WriteLine("Detener");
+        //}
+
+        public override string obtenerTipo()
         {
-            Console.WriteLine("Detener");
+            CalcularTamaño();
+            string tArchivo = tipoArchivo;
+            //string.ContarPalabras();
+            return "Archivo Dinamico";
         }
     }
 }
