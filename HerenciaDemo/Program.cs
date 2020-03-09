@@ -51,7 +51,7 @@ namespace HerenciaDemo
             string prueba = "Esta es una demo de los métodos de extensión";
             //var cantidad1 = MetodosExtension.ContarPalabras(prueba);
 
-            var cantidad2 = prueba.ContarPalabras(' ');
+            int cantidad2 = prueba.ContarPalabras(' ');
 
             //Console.WriteLine(cantidad1);
             Console.WriteLine(cantidad2);

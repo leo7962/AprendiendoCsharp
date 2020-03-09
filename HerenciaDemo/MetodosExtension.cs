@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HerenciaDemo
+﻿namespace HerenciaDemo
 {
-    static class MetodosExtension
+    internal static class MetodosExtension
     {
         public static int ContarPalabras(this string cadena, char caracter)
         {
             //Hola mundo = [hola], [mundo]
-            var palabras = cadena.Split(caracter);
+            string[] palabras = cadena.Split(caracter);
             return palabras.Length;
         }
     }

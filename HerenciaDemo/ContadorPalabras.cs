@@ -1,6 +1,6 @@
 ﻿namespace HerenciaDemo
 {
-    internal class ContadorPalabras 
+    internal class ContadorPalabras
     {
         //public int ContarPalabras()
         //{
